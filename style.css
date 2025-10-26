@@ -1,0 +1,72 @@
+/* Basic Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for consistency */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 8px 15px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Biography Page Photo */
+.bio-photo {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%; /* Makes the photo round */
+    border: 3px solid #007bff;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #666;
+}
